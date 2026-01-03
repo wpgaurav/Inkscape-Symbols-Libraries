@@ -1,6 +1,6 @@
 # Inkscape Symbols Libraries
 
-A comprehensive collection of **5,600+ symbols** organized into 48 SVG libraries for use with [Inkscape](https://inkscape.org/), the free and open-source vector graphics editor.
+A comprehensive collection of **24,900+ symbols** organized into 58 SVG libraries for use with [Inkscape](https://inkscape.org/), the free and open-source vector graphics editor.
 
 ## Overview
 
@@ -8,11 +8,11 @@ This repository provides ready-to-use symbol libraries that integrate directly i
 
 ## Features
 
-- **5,600+ symbols** across 48 library files
-- **Multiple icon families**: Material Design, Font Awesome, Ionic, Octicons, and more
+- **24,900+ symbols** across 58 library files
+- **Multiple icon families**: Bootstrap, Tabler, Lucide, Heroicons, Phosphor, Remix, and more
 - **Ready for Inkscape**: Drop into your symbols directory and start using immediately
 - **Open formats**: All symbols in standard SVG format
-- **Diverse categories**: UI elements, emojis, maps, social icons, weather symbols, and more
+- **Diverse categories**: UI elements, emojis, maps, brand logos, weather symbols, and more
 
 ## Installation
 
@@ -38,6 +38,24 @@ git clone https://github.com/wpgaurav/Inkscape-Symbols-Libraries.git ~/Library/A
 
 ## Symbol Libraries
 
+### Modern UI Icon Sets (NEW)
+
+| Library | Symbols | Description |
+|---------|---------|-------------|
+| `tabler-icons-outline.svg` | 4,985 | Tabler Icons - outline style |
+| `tabler-icons-filled.svg` | 1,001 | Tabler Icons - filled style |
+| `simple-icons.svg` | 3,369 | Brand and company logos |
+| `remix-icons.svg` | 3,188 | Remix Icon set - all categories |
+| `bootstrap-icons.svg` | 2,078 | Bootstrap Icons |
+| `lucide-icons.svg` | 1,666 | Lucide Icons (Feather fork) |
+| `phosphor-icons.svg` | 1,512 | Phosphor Icons - regular |
+| `phosphor-icons-fill.svg` | 1,512 | Phosphor Icons - filled |
+| `ionic.svg` | 515 | Ionicons (updated) |
+| `octicons.svg` | 342 | GitHub Octicons (updated) |
+| `heroicons-outline.svg` | 324 | Heroicons - outline style |
+| `heroicons-solid.svg` | 324 | Heroicons - solid style |
+| `feather-icons.svg` | 287 | Feather Icons |
+
 ### Material Design Icons (Google)
 
 | Library | Description |
@@ -57,61 +75,58 @@ git clone https://github.com/wpgaurav/Inkscape-Symbols-Libraries.git ~/Library/A
 | `notification.svg` | Notification icons |
 | `toggle.svg` | Toggle and switch icons |
 
-### Popular Icon Fonts
+### Classic Icon Fonts
 
-| Library | Description |
-|---------|-------------|
-| `font-awesome.svg` | Font Awesome icon collection (~520 symbols) |
-| `ionic.svg` | Ionic framework icons |
-| `octicons.svg` | GitHub Octicons |
-| `genericons.svg` | Genericons icon font |
-| `dashicons-set.svg` | WordPress Dashicons |
-| `taiga.svg` | Taiga project icons |
+| Library | Symbols | Description |
+|---------|---------|-------------|
+| `font-awesome.svg` | 519 | Font Awesome icon collection |
+| `genericons.svg` | 146 | Genericons icon font |
+| `dashicons-set.svg` | 238 | WordPress Dashicons |
+| `taiga.svg` | 90 | Taiga project icons |
 
 ### Specialized Collections
 
-| Library | Description |
-|---------|-------------|
-| `emojione.svg` | EmojiOne emoji collection (~1,600 symbols) |
-| `social.svg` | Social media brand icons |
-| `weather-symbols.svg` | Weather condition symbols |
-| `internet-symbols.svg` | Internet and web icons |
-| `humble-ui.svg` | Humble UI elements |
-| `InkscapeMainToolsSymbols.svg` | Inkscape tool icons |
-| `StateFace.svg` | US state shapes |
+| Library | Symbols | Description |
+|---------|---------|-------------|
+| `emojione.svg` | 1,624 | EmojiOne emoji collection |
+| `weather-symbols.svg` | 13 | Weather condition symbols |
+| `internet-symbols.svg` | 78 | Internet and web icons |
+| `humble-ui.svg` | 33 | Humble UI elements |
+| `InkscapeMainToolsSymbols.svg` | 21 | Inkscape tool icons |
+| `StateFace.svg` | 52 | US state shapes |
 
 ### Suru Icons (Ubuntu)
 
-| Library | Description |
-|---------|-------------|
-| `suru-icon-devices.svg` | Device icons |
-| `suru-icons-actions.svg` | Action icons |
-| `suru-icons-apps.svg` | Application icons |
-| `suru-icons-mimetypes.svg` | File type icons |
-| `suru-icons-status.svg` | Status indicators |
+| Library | Symbols | Description |
+|---------|---------|-------------|
+| `suru-icon-devices.svg` | 20 | Device icons |
+| `suru-icons-actions.svg` | 164 | Action icons |
+| `suru-icons-apps.svg` | 61 | Application icons |
+| `suru-icons-mimetypes.svg` | 14 | File type icons |
+| `suru-icons-status.svg` | 169 | Status indicators |
 
 ### SJJB Map Symbols
 
 Perfect for cartography and OpenStreetMap projects:
 
-| Library | Description |
-|---------|-------------|
-| `sjjb-accommodation.svg` | Hotels, hostels, camping |
-| `sjjb-amenity.svg` | Public amenities |
-| `sjjb-barrier.svg` | Barriers and gates |
-| `sjjb-education.svg` | Schools and universities |
-| `sjjb-food.svg` | Restaurants and food |
-| `sjjb-health.svg` | Hospitals and pharmacies |
-| `sjjb-landuse.svg` | Land use symbols |
-| `sjjb-money.svg` | Banks and ATMs |
-| `sjjb-poi.svg` | Points of interest |
-| `sjjb-power.svg` | Power infrastructure |
-| `sjjb-shopping.svg` | Shops and stores |
-| `sjjb-sport.svg` | Sports facilities |
-| `sjjb-tourist.svg` | Tourist attractions |
-| `sjjb-transport.svg` | Transportation |
-| `sjjb-water.svg` | Water features |
-| `sjjb-worship.svg` | Places of worship |
+| Library | Symbols | Description |
+|---------|---------|-------------|
+| `sjjb-accommodation.svg` | 28 | Hotels, hostels, camping |
+| `sjjb-amenity.svg` | 54 | Public amenities |
+| `sjjb-barrier.svg` | 24 | Barriers and gates |
+| `sjjb-education.svg` | 18 | Schools and universities |
+| `sjjb-food.svg` | 22 | Restaurants and food |
+| `sjjb-health.svg` | 20 | Hospitals and pharmacies |
+| `sjjb-landuse.svg` | 16 | Land use symbols |
+| `sjjb-money.svg` | 10 | Banks and ATMs |
+| `sjjb-poi.svg` | 42 | Points of interest |
+| `sjjb-power.svg` | 20 | Power infrastructure |
+| `sjjb-shopping.svg` | 88 | Shops and stores |
+| `sjjb-sport.svg` | 56 | Sports facilities |
+| `sjjb-tourist.svg` | 64 | Tourist attractions |
+| `sjjb-transport.svg` | 88 | Transportation |
+| `sjjb-water.svg` | 6 | Water features |
+| `sjjb-worship.svg` | 40 | Places of worship |
 
 ## Usage in Inkscape
 
@@ -131,15 +146,25 @@ Perfect for cartography and OpenStreetMap projects:
 
 This repository aggregates symbols from various open-source projects. Each symbol set retains its original license:
 
-- **Material Design Icons**: Apache License 2.0
-- **Font Awesome**: SIL OFL 1.1 (icons) / MIT (code)
-- **Ionic Icons**: MIT License
-- **Octicons**: MIT License
-- **EmojiOne**: CC BY 4.0 / MIT
-- **SJJB Map Icons**: CC0 Public Domain
-- **Suru Icons**: GPL-3.0
-- **Genericons**: GPL-2.0
-- **Dashicons**: GPL-2.0
+| Icon Set | License |
+|----------|---------|
+| Bootstrap Icons | MIT License |
+| Tabler Icons | MIT License |
+| Lucide Icons | ISC License |
+| Heroicons | MIT License |
+| Feather Icons | MIT License |
+| Phosphor Icons | MIT License |
+| Remix Icons | Apache 2.0 |
+| Simple Icons | CC0 1.0 |
+| Material Design Icons | Apache 2.0 |
+| Font Awesome | SIL OFL 1.1 / MIT |
+| Ionic Icons | MIT License |
+| Octicons | MIT License |
+| EmojiOne | CC BY 4.0 / MIT |
+| SJJB Map Icons | CC0 Public Domain |
+| Suru Icons | GPL-3.0 |
+| Genericons | GPL-2.0 |
+| Dashicons | GPL-2.0 |
 
 Please refer to each original project for specific licensing terms and attribution requirements.
 
@@ -163,7 +188,14 @@ Special thanks to all the original icon designers and projects that make their w
 ## Related Projects
 
 - [Inkscape](https://inkscape.org/) - Free and open-source vector graphics editor
-- [Material Design Icons](https://material.io/icons/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Tabler Icons](https://tabler.io/icons)
+- [Lucide Icons](https://lucide.dev/)
+- [Heroicons](https://heroicons.com/)
+- [Feather Icons](https://feathericons.com/)
+- [Phosphor Icons](https://phosphoricons.com/)
+- [Remix Icons](https://remixicon.com/)
+- [Simple Icons](https://simpleicons.org/)
 - [Font Awesome](https://fontawesome.com/)
 - [Octicons](https://primer.style/octicons/)
 - [SJJB Map Icons](https://www.sjjb.co.uk/mapicons/)

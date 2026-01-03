@@ -27,6 +27,46 @@ THIRD-PARTY LICENSES
 This repository contains symbol libraries from various open-source projects.
 Each symbol set retains its original license as specified below:
 
+Bootstrap Icons
+  License: MIT License
+  Source: https://github.com/twbs/icons
+  Files: bootstrap-icons.svg
+
+Tabler Icons
+  License: MIT License
+  Source: https://github.com/tabler/tabler-icons
+  Files: tabler-icons-outline.svg, tabler-icons-filled.svg
+
+Lucide Icons
+  License: ISC License
+  Source: https://github.com/lucide-icons/lucide
+  Files: lucide-icons.svg
+
+Heroicons
+  License: MIT License
+  Source: https://github.com/tailwindlabs/heroicons
+  Files: heroicons-outline.svg, heroicons-solid.svg
+
+Feather Icons
+  License: MIT License
+  Source: https://github.com/feathericons/feather
+  Files: feather-icons.svg
+
+Phosphor Icons
+  License: MIT License
+  Source: https://github.com/phosphor-icons/core
+  Files: phosphor-icons.svg, phosphor-icons-fill.svg
+
+Remix Icons
+  License: Apache License 2.0
+  Source: https://github.com/Remix-Design/RemixIcon
+  Files: remix-icons.svg
+
+Simple Icons
+  License: CC0 1.0 Universal (Public Domain)
+  Source: https://github.com/simple-icons/simple-icons
+  Files: simple-icons.svg
+
 Material Design Icons
   License: Apache License 2.0
   Source: https://github.com/google/material-design-icons
