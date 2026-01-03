@@ -1,0 +1,128 @@
+MIT License
+
+Copyright (c) 2016-present Gaurav Tiwari
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+THIRD-PARTY LICENSES
+
+This repository contains symbol libraries from various open-source projects.
+Each symbol set retains its original license as specified below:
+
+Bootstrap Icons
+  License: MIT License
+  Source: https://github.com/twbs/icons
+  Files: bootstrap-icons.svg
+
+Tabler Icons
+  License: MIT License
+  Source: https://github.com/tabler/tabler-icons
+  Files: tabler-icons-outline.svg, tabler-icons-filled.svg
+
+Lucide Icons
+  License: ISC License
+  Source: https://github.com/lucide-icons/lucide
+  Files: lucide-icons.svg
+
+Heroicons
+  License: MIT License
+  Source: https://github.com/tailwindlabs/heroicons
+  Files: heroicons-outline.svg, heroicons-solid.svg
+
+Feather Icons
+  License: MIT License
+  Source: https://github.com/feathericons/feather
+  Files: feather-icons.svg
+
+Phosphor Icons
+  License: MIT License
+  Source: https://github.com/phosphor-icons/core
+  Files: phosphor-icons.svg, phosphor-icons-fill.svg
+
+Remix Icons
+  License: Apache License 2.0
+  Source: https://github.com/Remix-Design/RemixIcon
+  Files: remix-icons.svg
+
+Simple Icons
+  License: CC0 1.0 Universal (Public Domain)
+  Source: https://github.com/simple-icons/simple-icons
+  Files: simple-icons.svg
+
+Material Design Icons
+  License: Apache License 2.0
+  Source: https://github.com/google/material-design-icons
+  Files: action.svg, alert.svg, av.svg, communication.svg, content.svg,
+         device.svg, editor.svg, file.svg, hardware.svg, image.svg,
+         maps.svg, navigation.svg, notification.svg, toggle.svg
+
+Font Awesome
+  License: SIL OFL 1.1 (icons), MIT (code)
+  Source: https://fontawesome.com/
+  Files: font-awesome.svg
+
+Ionic Icons
+  License: MIT License
+  Source: https://ionicons.com/
+  Files: ionic.svg
+
+Octicons
+  License: MIT License
+  Source: https://primer.style/octicons/
+  Files: octicons.svg
+
+EmojiOne (now JoyPixels)
+  License: CC BY 4.0 (artwork), MIT (code)
+  Source: https://www.joypixels.com/
+  Files: emojione.svg
+
+SJJB Map Icons
+  License: CC0 1.0 Universal (Public Domain)
+  Source: https://www.sjjb.co.uk/mapicons/
+  Files: sjjb-*.svg
+
+Suru Icons
+  License: GPL-3.0
+  Source: https://github.com/snwh/suru-icon-theme
+  Files: suru-*.svg
+
+Genericons
+  License: GPL-2.0
+  Source: https://github.com/Automattic/genericons
+  Files: genericons.svg
+
+Dashicons
+  License: GPL-2.0
+  Source: https://developer.wordpress.org/resource/dashicons/
+  Files: dashicons-set.svg
+
+Taiga Icons
+  License: AGPL-3.0
+  Source: https://github.com/taigaio
+  Files: taiga.svg
+
+StateFace
+  License: MIT/OFL
+  Source: https://propublica.github.io/stateface/
+  Files: StateFace.svg
+
+Please refer to each original project for complete licensing terms
+and any attribution requirements.
