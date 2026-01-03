@@ -16,7 +16,22 @@ This repository provides ready-to-use symbol libraries that integrate directly i
 
 ## Installation
 
-### Method 1: Copy to Inkscape Symbols Directory
+### Method 1: One-Click Installer (Recommended)
+
+Download the repository and run the appropriate installer for your platform:
+
+| Platform | Installer | How to Run |
+|----------|-----------|------------|
+| **Windows** | `install-windows.bat` | Double-click the file |
+| **Windows** | `install-windows.ps1` | Right-click → "Run with PowerShell" |
+| **Linux** | `install-linux.sh` | Run `./install-linux.sh` in terminal |
+| **macOS** | `install-macos.sh` | Run `./install-macos.sh` in terminal |
+
+The installer will automatically copy all symbol libraries to the correct Inkscape directory.
+
+To uninstall on Windows, run `uninstall-windows.bat`.
+
+### Method 2: Manual Installation
 
 1. Download or clone this repository
 2. Copy the `.svg` files to your Inkscape symbols directory:
@@ -26,7 +41,7 @@ This repository provides ready-to-use symbol libraries that integrate directly i
 3. Restart Inkscape
 4. Access symbols via **Object → Symbols** (or `Ctrl+Shift+Y`)
 
-### Method 2: Clone Repository Directly
+### Method 3: Clone Repository Directly
 
 ```bash
 # Linux
