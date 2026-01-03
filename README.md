@@ -145,17 +145,86 @@ Perfect for cartography and OpenStreetMap projects:
 
 ## Usage in Inkscape
 
-1. Open Inkscape
-2. Go to **Object → Symbols** (or press `Ctrl+Shift+Y`)
-3. Select a symbol library from the dropdown menu
-4. Click and drag symbols onto your canvas
-5. Symbols can be resized, rotated, and styled like any other object
+### Getting Started
 
-### Tips
+1. **Open Inkscape** and create a new document or open an existing one
+2. **Open the Symbols panel**: Go to **Object → Symbols** (or press `Ctrl+Shift+Y` / `Cmd+Shift+Y` on macOS)
+3. **Select a library**: Use the dropdown menu at the top of the Symbols panel to choose a symbol library (e.g., "bootstrap-icons", "tabler-icons-outline")
+4. **Browse symbols**: Scroll through the available symbols in the panel
+5. **Add to canvas**: Click and drag any symbol onto your canvas
 
-- Use **Edit → Clone → Unlink Clone** to convert a symbol to editable paths
-- Symbols maintain a link to the library - changes to the library update all instances
-- Use the search box in the Symbols panel to find specific icons
+### Working with Symbols
+
+#### Resizing Symbols
+- Select the symbol and drag the corner handles to resize
+- Hold `Ctrl` while resizing to maintain aspect ratio
+- Use **Object → Transform** (`Shift+Ctrl+M`) for precise sizing
+
+#### Changing Colors
+- Symbols inherit the current fill/stroke colors by default
+- To change colors: Select the symbol, then use the Fill & Stroke panel (`Shift+Ctrl+F`)
+- Some symbols may need to be unlinked first (see below)
+
+#### Converting to Editable Paths
+To fully edit a symbol's paths:
+1. Select the symbol on your canvas
+2. Go to **Edit → Clone → Unlink Clone** (or press `Shift+Alt+D`)
+3. Then go to **Object → Ungroup** (`Shift+Ctrl+G`) if needed
+4. The symbol is now a regular path you can edit with the Node tool
+
+#### Duplicating Symbols
+- `Ctrl+D` - Duplicate in place
+- `Ctrl+C` then `Ctrl+V` - Copy and paste
+- `Alt+D` - Create a linked clone (changes to original affect all clones)
+
+### Tips & Best Practices
+
+- **Search for icons**: Use the search box in the Symbols panel to find specific icons by name
+- **Symbol linking**: Symbols maintain a link to the library - updating the library file updates all instances in your documents
+- **Performance**: For documents with many symbols, consider unlinking them to improve performance
+- **Consistent sizing**: Most icon sets use 24x24 or 16x16 viewboxes - resize proportionally for consistency
+- **Batch operations**: Select multiple symbols and apply transformations to all at once
+
+### Keyboard Shortcuts
+
+| Action | Windows/Linux | macOS |
+|--------|---------------|-------|
+| Open Symbols Panel | `Ctrl+Shift+Y` | `Cmd+Shift+Y` |
+| Duplicate | `Ctrl+D` | `Cmd+D` |
+| Unlink Clone | `Shift+Alt+D` | `Shift+Option+D` |
+| Ungroup | `Shift+Ctrl+G` | `Shift+Cmd+G` |
+| Fill & Stroke | `Shift+Ctrl+F` | `Shift+Cmd+F` |
+| Transform | `Shift+Ctrl+M` | `Shift+Cmd+M` |
+
+## Troubleshooting
+
+### Symbols not appearing in Inkscape
+
+1. **Restart Inkscape**: The symbols panel only loads libraries at startup
+2. **Check the directory**: Ensure SVG files are in the correct location:
+   - Linux: `~/.config/inkscape/symbols/`
+   - macOS: `~/Library/Application Support/org.inkscape.Inkscape/config/inkscape/symbols/`
+   - Windows: `%APPDATA%\inkscape\symbols\`
+3. **Create the folder**: If the `symbols` folder doesn't exist, create it manually
+4. **Check file permissions**: Ensure the SVG files are readable
+
+### Symbols appear but can't be colored
+
+Some symbols have hardcoded colors. To change them:
+1. Unlink the clone (`Shift+Alt+D`)
+2. Ungroup if needed (`Shift+Ctrl+G`)
+3. Select individual paths and change their fill/stroke
+
+### Inkscape is slow with many symbols
+
+- Large symbol libraries (like `emojione.svg`) may slow down the Symbols panel
+- Consider removing libraries you don't use
+- Unlink symbols after placing them to improve document performance
+
+### "Library not found" in dropdown
+
+- Ensure the SVG file has valid `<symbol>` elements
+- Check that the file isn't corrupted (try opening it directly in Inkscape)
 
 ## License
 
